@@ -1,0 +1,121 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .menu {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .menu .navbar li {
+  display: inline-block;
+  width: 94.873px;
+  height: 32px;
+  padding: 7px 8.673px 7px 7.03px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header .menu .navbar li a:hover {
+  color: #4e46dd !important;
+  font-weight: bold;
+}
+
+.header .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.header .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.active {
+  border-bottom: 2px solid #4e46dd;
+}
+
+.active a {
+  color: #4e46dd;
+}
+
+.container .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container .steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.container .contents {
+  padding-bottom: 30px;
+  width: 60%;
+  margin: 10px auto;
+}
+
+.container .contents .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 0 20px;
+}
+
+.container .contents .title i {
+  font-size: 32px;
+  margin-right: 10px;
+}
+
+.container .contents > div {
+  border-radius: 20px;
+  border: 1px solid var(--Neutral-6, #bfbfbf);
+  background: var(--Neutral-1, #fff);
+  margin: 20px 0;
+}
+
+.container .contents > div .bot {
+  background: var(--Geek-Blue-1, #f0f5ff);
+  width: 95.5%;
+  border-radius: 0 0 20px 20px;
+  padding: 20px;
+}
+
+.container .contents > div .bot .tab .tablinks {
+  border: none;
+}
+
+.select {
+  border-radius: 20px;
+  border: 2px solid var(--button, #4f46e5) !important;
+  background: var(--Select, #f4f8ff);
+}
+
+.container .contents > div input {
+  border-radius: 25px;
+  border: 1px solid var(--Neutral-5, #d9d9d9);
+  background: var(--Neutral-1, #fff);
+  padding: 10px;
+}
+
+.footer {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+}

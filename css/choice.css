@@ -1,0 +1,134 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .menu {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .menu .navbar li {
+  display: inline-block;
+  width: 94.873px;
+  height: 32px;
+  padding: 7px 8.673px 7px 7.03px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header .menu .navbar li a:hover {
+  color: #4e46dd !important;
+  font-weight: bold;
+}
+
+.header .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.header .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.active {
+  border-bottom: 2px solid #4e46dd;
+}
+
+.active a {
+  color: #4e46dd !important;
+}
+
+.container .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container .steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.container .contents {
+  padding-bottom: 30px;
+  width: 60%;
+  margin: 10px auto;
+}
+
+.container .contents .center {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .contents .left {
+  border-radius: 20px;
+  background: var(--Neutral-1, #fff);
+  display: inline-block;
+  width: 35%;
+  padding: 10px;
+  box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05),
+    0px 6px 16px 0px rgba(0, 0, 0, 0.08), 0px 3px 6px -4px rgba(0, 0, 0, 0.12);
+}
+
+.container .contents .left ul {
+  border-left: 1px solid black;
+  margin-left: 8px;
+}
+
+.container .contents .left li {
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.container .contents .left li a:hover{
+    color: #4e46dd !important;
+}
+
+.container .contents .right {
+  border-radius: 20px;
+  margin-left: 20px;
+  background: var(--Neutral-1, #fff);
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05),
+    0px 6px 16px 0px rgba(0, 0, 0, 0.08), 0px 3px 6px -4px rgba(0, 0, 0, 0.12);
+}
+
+.container .contents .right .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .contents .right .form label {
+  margin-top: 10px;
+}
+
+.container .contents .right .form .text {
+  width: 80%;
+  padding: 5px 12px;
+  border-radius: 25px;
+  border: 1px solid var(--Neutral-5, #d9d9d9);
+  background: var(--Neutral-1, #fff);
+}
+
+.footer {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+}
